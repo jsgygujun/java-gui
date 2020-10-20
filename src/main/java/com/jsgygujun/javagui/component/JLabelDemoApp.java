@@ -10,7 +10,7 @@ import javax.swing.*;
  * JLabel(String text)：                                     创建具有指定文本的 JLabel。
  * JLabel(String textIcon image,int horizontalAlignment)：   创建具有指定文本、图像和水平对齐方式的 JLabel，
  *                                                           horizontalAlignment 取值：JLabel.LEFT、JLabel.RIGHT 和 JLabel.CENTER。
- *
+ * 常用方法：
  * 方法名称	                                                说明
  * void setText(String text)	                            定义 JLabel 将要显示的单行文本
  * void setIcon(Icon image)	                                定义 JLabel 将要显示的图标
