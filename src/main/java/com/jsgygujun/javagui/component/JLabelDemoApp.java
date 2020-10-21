@@ -1,6 +1,8 @@
 package com.jsgygujun.javagui.component;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.image.BufferedImage;
 
 /**
  * 标签是一种可以包含文本和图片的非交互组件。
@@ -34,8 +36,8 @@ public class JLabelDemoApp {
     JLabel label = new JLabel("这个一个JLabel");
 
     private void init() {
-        panel.add(label); // 添加到面板
-        frame.add(panel);
+        panel.add(label); // 添加到面板        frame.add(panel);
+        frame.setIconImage(new ImageIcon("src/main/resources/alien.png").getImage());
         frame.setBounds(100, 100, 400, 300);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
